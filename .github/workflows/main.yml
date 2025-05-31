@@ -45,10 +45,10 @@ jobs:
           git config user.name "sumit-essi"
           git config user.email "sumitpoonia.essi@gmail.com"
 
-      - name: Merge dev into main
+      - name: Merge Dev into main
         run: |
-          git fetch origin dev
-          git merge origin/dev --no-edit
+          git fetch origin Dev
+          git merge origin/Dev --no-edit
 
       - name: Push changes to main
         env:
