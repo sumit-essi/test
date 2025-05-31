@@ -3,7 +3,7 @@ name: Verify and Promote Dev to Main
 on:
   push:
     branches:
-      - dev
+      - Dev
 
 jobs:
   verify:
