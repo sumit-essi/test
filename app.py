@@ -12,3 +12,7 @@ def about():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+#this is a simple Flask application that serves two pages: home and about.
